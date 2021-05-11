@@ -1,0 +1,23 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+}
+
+#modal-root {
+	position: relative;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
