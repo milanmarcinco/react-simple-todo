@@ -99,8 +99,8 @@ const AddTodo = (props) => {
 				/>
 				<ControlsWrapper>
 					<ColorTagsWrapper onChange={onColorTagChange}>
-						{colorTagOptions.map((color) => (
-							<ColorTagInput color={color} />
+						{colorTagOptions.map((color, i) => (
+							<ColorTagInput color={color} key={i} />
 						))}
 					</ColorTagsWrapper>
 					<Button type="submit">Add</Button>
