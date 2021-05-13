@@ -65,10 +65,8 @@ const App = () => {
 
 	return (
 		<Wrapper>
-			{/* AddTodo form */}
 			<AddTodo onAddTodo={onAddTodo} />
 
-			{/* Show todos */}
 			<TodosList
 				todos={todos}
 				onCompleteTodo={onCompleteTodo}
